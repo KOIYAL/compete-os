@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intake Brief"
+  short_description: "Extract rules, deadlines, unknowns, and judging criteria."
+  default_prompt: "Use $intake-brief to turn this event brief into a structured local project record."

@@ -1,0 +1,49 @@
+{
+  "name": "compete-os",
+  "version": "0.1.0",
+  "description": "Local-first competition and application production harness by KOIYAL",
+  "type": "module",
+  "license": "Apache-2.0",
+  "private": false,
+  "engines": {
+    "node": ">=22 <27"
+  },
+  "packageManager": "pnpm@11.9.0",
+  "bin": {
+    "compete": "./bin/compete.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "stacks",
+    "templates",
+    "registry"
+  ],
+  "scripts": {
+    "compete": "node ./bin/compete.mjs",
+    "sync:skills": "node ./scripts/sync-skills.mjs",
+    "sync:skills:check": "node ./scripts/sync-skills.mjs --check",
+    "scan:secrets": "node ./scripts/scan-secrets.mjs",
+    "test": "node --test",
+    "verify": "node ./scripts/verify.mjs",
+    "public:check": "node ./scripts/public-readiness.mjs"
+  },
+  "keywords": [
+    "hackathon",
+    "competition",
+    "grant",
+    "rfp",
+    "codex",
+    "claude-code",
+    "agent-skills"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KOIYAL/compete-os.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KOIYAL/compete-os/issues"
+  },
+  "homepage": "https://github.com/KOIYAL/compete-os#readme"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Competition"
+  short_description: "Turn judging criteria and deadlines into an executable plan."
+  default_prompt: "Use $plan-competition to prioritize an entry and build a deadline-first plan."

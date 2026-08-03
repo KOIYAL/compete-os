@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scaffold Project"
+  short_description: "Select the default stack and create a clean project repo."
+  default_prompt: "Use $scaffold-project to create a separate, rule-compliant project repository."

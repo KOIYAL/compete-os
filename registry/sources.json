@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "priority": [
+    {
+      "kind": "official-agent-catalog",
+      "trust": "candidate-only"
+    },
+    {
+      "kind": "official-vendor-repository",
+      "trust": "candidate-only"
+    },
+    {
+      "kind": "maintained-open-source",
+      "trust": "candidate-only"
+    },
+    {
+      "kind": "github-trending",
+      "trust": "discovery-only"
+    },
+    {
+      "kind": "community-index",
+      "trust": "discovery-only"
+    }
+  ],
+  "automaticInstall": false,
+  "automaticUpdate": false
+}

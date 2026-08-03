@@ -1,0 +1,13 @@
+{
+  "id": "native-mobile",
+  "useWhen": [
+    "The core demo requires camera, location, notifications, or another native device capability"
+  ],
+  "language": "TypeScript",
+  "framework": "Expo / React Native",
+  "quality": [
+    "Vitest",
+    "device smoke test"
+  ],
+  "warning": "Do not select mobile only for presentation value; device setup and distribution increase deadline risk."
+}

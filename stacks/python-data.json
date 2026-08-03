@@ -1,0 +1,15 @@
+{
+  "id": "python-data",
+  "useWhen": [
+    "The core value is analysis, machine learning, or heavy data processing"
+  ],
+  "language": "Python",
+  "interface": "CLI first; FastAPI only when an HTTP API is required",
+  "data": "Polars",
+  "notebook": "Jupyter only for exploration, not the submission runtime",
+  "quality": [
+    "pytest",
+    "Ruff",
+    "mypy when type safety materially helps"
+  ]
+}

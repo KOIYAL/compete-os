@@ -1,0 +1,34 @@
+{
+  "id": "default-web",
+  "useWhen": [
+    "A public web URL is needed quickly",
+    "No native device capability is required",
+    "The user has no stronger stack preference"
+  ],
+  "language": "TypeScript",
+  "packageManager": "pnpm",
+  "runtime": "Cloudflare Workers",
+  "backend": "Hono",
+  "frontend": "React only when client-side state is required",
+  "styling": "CSS design tokens; add Tailwind only when justified",
+  "validation": "Zod",
+  "database": "D1 + Drizzle only when persistence is required",
+  "storage": "R2 only when files are required",
+  "background": "Queues or Workflows only when asynchronous durability is required",
+  "realtime": "Durable Objects only when coordination is required",
+  "quality": [
+    "Biome",
+    "Vitest",
+    "Playwright",
+    "GitHub Actions"
+  ],
+  "omitByDefault": [
+    "authentication",
+    "billing",
+    "admin UI",
+    "database",
+    "file storage",
+    "background jobs",
+    "realtime"
+  ]
+}

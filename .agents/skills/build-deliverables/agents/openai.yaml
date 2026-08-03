@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Deliverables"
+  short_description: "Generate a deck, demo plan, pitch, and submission assets."
+  default_prompt: "Use $build-deliverables to create and update all judging-facing deliverables."

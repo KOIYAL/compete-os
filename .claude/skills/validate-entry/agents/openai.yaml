@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Entry"
+  short_description: "Check compliance, security, evidence, and submission readiness."
+  default_prompt: "Use $validate-entry to run a release-grade submission readiness review."

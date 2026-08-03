@@ -1,0 +1,16 @@
+{
+  "id": "simple-web",
+  "useWhen": [
+    "The product is a form, report, or static experience",
+    "Client-side state is minimal"
+  ],
+  "language": "TypeScript",
+  "runtime": "Cloudflare Workers or static hosting",
+  "backend": "Hono or no backend",
+  "frontend": "Server-rendered HTML or vanilla browser JavaScript",
+  "omit": [
+    "React",
+    "database",
+    "authentication"
+  ]
+}

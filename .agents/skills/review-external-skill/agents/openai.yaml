@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review External Skill"
+  short_description: "Quarantine and review third-party skills before approval."
+  default_prompt: "Use $review-external-skill to evaluate an external skill without installing it."
